@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winamp", "winamp\out_streamer.vcxproj", "{7D6501BA-FC79-46FA-9439-7B1C785E1E50}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "streamerlib", "streamerlib\streamerlib.vcxproj", "{B94C4146-E90A-47A0-8ED7-641FDA5F4B1A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tray_streamer", "tray_streamer\tray_streamer.vcxproj", "{6A262B20-0BA2-47C9-BB3E-5850CAE34BBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "players", "players", "{7E203F1B-5312-473F-88D0-E83749577909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D6501BA-FC79-46FA-9439-7B1C785E1E50}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D6501BA-FC79-46FA-9439-7B1C785E1E50}.Debug|Win32.Build.0 = Debug|Win32
+		{7D6501BA-FC79-46FA-9439-7B1C785E1E50}.Release|Win32.ActiveCfg = Release|Win32
+		{7D6501BA-FC79-46FA-9439-7B1C785E1E50}.Release|Win32.Build.0 = Release|Win32
+		{B94C4146-E90A-47A0-8ED7-641FDA5F4B1A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B94C4146-E90A-47A0-8ED7-641FDA5F4B1A}.Debug|Win32.Build.0 = Debug|Win32
+		{B94C4146-E90A-47A0-8ED7-641FDA5F4B1A}.Release|Win32.ActiveCfg = Release|Win32
+		{B94C4146-E90A-47A0-8ED7-641FDA5F4B1A}.Release|Win32.Build.0 = Release|Win32
+		{6A262B20-0BA2-47C9-BB3E-5850CAE34BBD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A262B20-0BA2-47C9-BB3E-5850CAE34BBD}.Debug|Win32.Build.0 = Debug|Win32
+		{6A262B20-0BA2-47C9-BB3E-5850CAE34BBD}.Release|Win32.ActiveCfg = Release|Win32
+		{6A262B20-0BA2-47C9-BB3E-5850CAE34BBD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D6501BA-FC79-46FA-9439-7B1C785E1E50} = {7E203F1B-5312-473F-88D0-E83749577909}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+		Svn-Managed = True
+	EndGlobalSection
+EndGlobal

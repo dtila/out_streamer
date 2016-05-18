@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Output">
+      <UniqueIdentifier>{3426a844-c779-46c1-89ee-1cdd22f85c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output\Mp3">
+      <UniqueIdentifier>{3c3d96d5-3d44-4546-81d9-313562f22eb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output\Wav">
+      <UniqueIdentifier>{9127c8e1-657a-45fe-80bb-3a3e9df120f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Output\WASAPI">
+      <UniqueIdentifier>{b47f5f6e-0ef3-49ca-9f91-08b9edb628a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Streaming">
+      <UniqueIdentifier>{585477e3-23d7-4f1d-b94e-4a2840ac9f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Streaming\Managers">
+      <UniqueIdentifier>{8177050b-ff37-4078-9a3e-fe132d8437f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MpdClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mp3OutputStream.h">
+      <Filter>Output\Mp3</Filter>
+    </ClInclude>
+    <ClInclude Include="WavOutputStream.h">
+      <Filter>Output\Wav</Filter>
+    </ClInclude>
+    <ClInclude Include="WasapiOuput.h">
+      <Filter>Output\WASAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeStreamManager.h">
+      <Filter>Streaming\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpServer.h">
+      <Filter>Streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamManager.h">
+      <Filter>Streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutForwarder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncronisedStreamManager.h">
+      <Filter>Streaming\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="DummyStreamManager.h">
+      <Filter>Streaming\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IAudioOutputStream.h">
+      <Filter>Output</Filter>
+    </ClInclude>
+    <ClInclude Include="AllignedNew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="auto_update_feature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IHttpStreamResponse.h">
+      <Filter>Streaming</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mp3OutputStream.cpp">
+      <Filter>Output\Mp3</Filter>
+    </ClCompile>
+    <ClCompile Include="WavOutputStream.cpp">
+      <Filter>Output\Wav</Filter>
+    </ClCompile>
+    <ClCompile Include="WasapiOuput.cpp">
+      <Filter>Output\WASAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeStreamManager.cpp">
+      <Filter>Streaming\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpServer.cpp">
+      <Filter>Streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamManager.cpp">
+      <Filter>Streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MpdClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutForwarder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SyncronisedStreamManager.cpp">
+      <Filter>Streaming\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DummyStreamManager.cpp">
+      <Filter>Streaming\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllignedNew.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="auto_update_feature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+
+#define STREAMER_PAYD_VERSION
